@@ -1,0 +1,6 @@
+A
+B
+RULES
+A,B->C
+B,C->D
+A,D->E

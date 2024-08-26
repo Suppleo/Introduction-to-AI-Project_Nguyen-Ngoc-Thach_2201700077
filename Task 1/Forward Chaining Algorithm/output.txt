@@ -1,0 +1,8 @@
+Initial facts:
+A
+B
+
+New facts derived:
+C
+D
+E
