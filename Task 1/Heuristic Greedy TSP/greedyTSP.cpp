@@ -46,7 +46,7 @@ vector<int> greedyTSP(const vector<pair<int, int>>& cities) {
 
 int main() {
     // Read input from file
-    ifstream inputFile("input.txt");
+    ifstream inputFile("inputGreedyTSP.txt");
     int n;
     inputFile >> n;
 
@@ -66,7 +66,7 @@ int main() {
     }
 
     // Write output to file
-    ofstream outputFile("output.txt");
+    ofstream outputFile("outputGreedyTSP.txt");
     outputFile << "Tour: ";
     for (int city : tour) {
         outputFile << city << " ";

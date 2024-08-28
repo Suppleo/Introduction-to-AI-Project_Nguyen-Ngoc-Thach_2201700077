@@ -91,7 +91,7 @@ vector<Node*> astar(vector<vector<int>>& grid, Node* start, Node* goal) {
 
 int main() {
     // Read input file
-    ifstream inputFile("input.txt");
+    ifstream inputFile("inputAstar.txt");
     if (!inputFile.is_open()) {
         cerr << "Error opening input file" << endl;
         return 1;
@@ -120,7 +120,7 @@ int main() {
     vector<Node*> path = astar(grid, start, goal);
 
     // Write output file
-    ofstream outputFile("output.txt");
+    ofstream outputFile("outputAstar.txt");
     if (!outputFile.is_open()) {
         cerr << "Error opening output file" << endl;
         return 1;

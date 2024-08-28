@@ -23,7 +23,7 @@ std::vector<double> propagate(const std::vector<double>& input, double decay_fac
 
 int main() {
     // Open input file
-    std::ifstream inFile("input.txt");
+    std::ifstream inFile("inputPropagation.txt");
     if (!inFile) {
         std::cerr << "Error opening input file" << std::endl;
         return 1;
@@ -42,7 +42,7 @@ int main() {
     std::vector<double> result = propagate(input, decay_factor);
 
     // Open output file
-    std::ofstream outFile("output.txt");
+    std::ofstream outFile("outputPropagation.txt");
     if (!outFile) {
         std::cerr << "Error opening output file" << std::endl;
         return 1;

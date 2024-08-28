@@ -40,7 +40,7 @@ void forwardChaining(const vector<string>& facts, const vector<Rule>& rules, vec
 
 int main() {
     // Read input from file
-    ifstream inputFile("input.txt");
+    ifstream inputFile("inputForward.txt");
     if (!inputFile) {
         cerr << "Error opening input file" << endl;
         return 1;
@@ -81,7 +81,7 @@ int main() {
     forwardChaining(initialFacts, rules, newFacts);
 
     // Write output to file
-    ofstream outputFile("output.txt");
+    ofstream outputFile("outputForward.txt");
     if (!outputFile) {
         cerr << "Error opening output file" << endl;
         return 1;

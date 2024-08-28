@@ -1,0 +1,13 @@
+Generation 0: Best fitness = 1.53483 at (x, y) = (-0.44713, -0.584601)
+Generation 100: Best fitness = 1.67079 at (x, y) = (-0.614919, -0.828997)
+Generation 200: Best fitness = 1.67089 at (x, y) = (-0.62264, -0.819154)
+Generation 300: Best fitness = 1.67092 at (x, y) = (-0.627438, -0.826671)
+Generation 400: Best fitness = 1.67077 at (x, y) = (-0.625987, -0.816755)
+Generation 500: Best fitness = 1.67067 at (x, y) = (-0.629945, -0.818356)
+Generation 600: Best fitness = 1.67065 at (x, y) = (-0.612967, -0.818292)
+Generation 700: Best fitness = 1.67093 at (x, y) = (-0.626649, -0.832298)
+Generation 800: Best fitness = 1.67055 at (x, y) = (-0.634638, -0.82569)
+Generation 900: Best fitness = 1.67095 at (x, y) = (-0.626179, -0.829621)
+
+Final result:
+Best fitness = 1.6708 at (x, y) = (-0.630189, -0.824783)

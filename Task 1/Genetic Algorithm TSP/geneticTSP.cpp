@@ -98,7 +98,7 @@ int main() {
     srand(time(0));
 
     // Read input file
-    ifstream input("input.txt");
+    ifstream input("inputGenTSP.txt");
     int numCities;
     input >> numCities;
     vector<City> cities(numCities);
@@ -142,7 +142,7 @@ int main() {
     }
 
     // Write output file
-    ofstream output("output.txt");
+    ofstream output("outputGenTSP.txt");
     output << "Best tour: ";
     for (int city : bestTour) {
         output << city << " ";

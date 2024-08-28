@@ -105,7 +105,7 @@ public:
 };
 
 int main() {
-    std::ofstream outFile("ga_results.txt");
+    std::ofstream outFile("mathsolve_results.txt");
     if (!outFile) {
         std::cerr << "Error opening output file\n";
         return 1;
